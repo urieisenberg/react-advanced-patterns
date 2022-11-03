@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { CompoundPattern } from "./Patterns/Compound";
+import { ReusableStylesPattern } from "./Patterns/ReusableStyles";
+import { ControlPropsPattern } from "./Patterns/ControlProps";
+import { CustomHooksPattern } from "./Patterns/CustomHooks";
+import { PropsCollectionPattern } from "./Patterns/PropsCollection";
+import { PropsGettersPattern } from "./Patterns/PropsGetters";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <h1>CompoundPattern</h1> <CompoundPattern />
+      </div>
+      <hr />
+      <div>
+        <h1>ReusableStylesPattern</h1> <ReusableStylesPattern />
+      </div>
+      <hr />
+      <div>
+        <h1>ControlPropsPattern</h1> <ControlPropsPattern />
+      </div>
+      <hr />
+      <div>
+        <h1>CustomHooksPattern</h1> <CustomHooksPattern />
+      </div>
+      <hr />
+      <div>
+        <h1>PropsCollectionPattern</h1> <PropsCollectionPattern />
+      </div>
+      <hr />
+      <div>
+        <h1>PropsGettersPattern</h1> <PropsGettersPattern />
+      </div>
+    </>
   );
 }
 
