@@ -6,7 +6,7 @@ import React, {
   useEffect,
 } from "react";
 import mojs from "mo-js";
-import styles from "./index.css";
+import styles from "../index.css";
 
 const INITIAL_STATE = {
   count: 0,

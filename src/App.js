@@ -1,4 +1,4 @@
-import { CompoundPattern } from "./Patterns/Compound";
+import { CompoundPattern } from "./Patterns/CompoundComponents";
 import { ReusableStylesPattern } from "./Patterns/ReusableStyles";
 import { ControlPropsPattern } from "./Patterns/ControlProps";
 import { CustomHooksPattern } from "./Patterns/CustomHooks";

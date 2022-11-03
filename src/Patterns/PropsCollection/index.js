@@ -2,7 +2,9 @@ import { useClapState } from "./hooks/useClapState";
 import { useEffectAfterMount } from "./hooks/useEffectAfterMount";
 import { useDOMRef } from "./hooks/useDOMRef";
 import { useClapAnimation } from "./hooks/useClapAnimation";
-import { ClapContainer, ClapIcon, ClapCount, CountTotal } from "./components";
+import { ClapContainer } from "./components/ClapContainer";
+import { ClapCount } from "./components/ClapCount";
+import { CountTotal } from "./components/CountTotal";
 
 export const PropsCollectionPattern = () => {
   const { clapState, updateClapState, togglerProps, counterProps } =
